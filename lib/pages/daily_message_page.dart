@@ -87,10 +87,7 @@ class BottomButtons extends StatelessWidget {
                   ),
                 ),
               ),
-              onPressed: () {
-                notifier
-                    .setCurrentlySelectedMessageIndex(state.currentIndex + 1);
-              },
+              onPressed: () {},
             ),
           ),
         ],
